@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "stack-machine"
+version = "0.1.0"
+description = ""
+authors = ["Dominik Nedvedik <dominik.nedvedik@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "stack_machine"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
